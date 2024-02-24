@@ -82,7 +82,7 @@ public class ScheduleAppointmentTests extends BaseClass{
 		
 		String symp="fever & flu";
 		expectedHMap.put("appointment", symp);
-		driver.findElement(By.id("sym")).sendKeys(symp);
+		driver.findElement(By.name("sym")).sendKeys(symp);
 		driver.findElement(By.xpath("//input[@value='Submit']")).click();
 		System.out.println("Expected HMAP" + expectedHMap);
 		

@@ -17,5 +17,10 @@
        <class name="org.iit.healthcare.patientmodule.tests.EditProfileTests"/>
      </classes>
    </test>
+      <test name="Test4">
+     <classes>
+       <class name="org.iit.healthcare.patientmodule.tests.message"/>
+     </classes>
+   </test>
    
 </suite> <!-- Suite -->
